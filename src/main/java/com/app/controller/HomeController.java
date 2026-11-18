@@ -66,4 +66,9 @@ public class HomeController {
 		return "registersuccess";
 	}
 
+	@RequestMapping("/Login")
+	public String login()
+	{
+		return "login page";
+	}
 }
